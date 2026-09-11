@@ -1,6 +1,6 @@
 #include <stddef.h>
 #include <stdint.h>
-#include <terminal.c>
+#include <terminal.h>
 #include <interupts.h>
 
 void kernel_main(void) {

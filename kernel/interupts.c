@@ -28,6 +28,6 @@ static void idt_set_gate(uint8_t number, uint32_t handler) {
     idt[number].offset_high = (uint16_t)(handler >> 16 & 0xFFFF);
 }
 
-void init_interupt(void) {
-    terminal_writestring("test");
+void init_interupts(void) {
+    terminal_write_string("test");
 }

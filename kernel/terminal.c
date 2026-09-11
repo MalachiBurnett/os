@@ -1,5 +1,6 @@
 #include <stddef.h>
 #include <stdint.h>
+#include <terminal.h>
 
 #define VGA_WIDTH 80
 #define VGA_HEIGHT 25
